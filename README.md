@@ -1,5 +1,13 @@
 # ESP32 BLE Keyboard library
 
+## About this fork
+
+This fork only adds a `library.json` that declares the NimBLE-Arduino dependency.
+ESPHome 2026.9 and later turn PlatformIO libraries into ESP-IDF components and read
+dependencies from `library.json` alone, so without it `BleKeyboard.cpp` cannot find
+the NimBLE headers when it is built with `USE_NIMBLE`. The library code is upstream
+master, unchanged.
+
 This library allows you to make the ESP32 act as a Bluetooth Keyboard and control what it does.  
 You might also be interested in:
 - [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse)

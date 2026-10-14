@@ -1,0 +1,25 @@
+{
+  "name": "ESP32 BLE Keyboard",
+  "version": "0.3.2",
+  "description": "Bluetooth LE Keyboard library for the ESP32.",
+  "keywords": "ble, bluetooth, keyboard, hid, esp32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mac-lucky/ESP32-BLE-Keyboard.git"
+  },
+  "authors": [
+    {
+      "name": "T-vK",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": [
+    {
+      "owner": "h2zero",
+      "name": "NimBLE-Arduino",
+      "version": "^1.4.0"
+    }
+  ]
+}
